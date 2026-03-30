@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdDone } from 'react-icons/md';
 
-const Product = ({product}) => {
+const Product = ({product,cart,setCart}) => {
+    const [buyNow,setBuyNow]=useState(false)
     const {features} = product
+    const handleBuyBtn=(item)=>{
+        setBuyNow(true)
+        setCart([...cart,item])
+    }
     return (
         <div className=' shadow-md rounded-2xl p-5 space-y-5'>
           <div className="">
@@ -22,7 +27,7 @@ const Product = ({product}) => {
             }
           </ul>
           </div>
-          <button className='btn btn-primary w-full'>Buy Now</button>
+          <button onClick={()=>handleBuyBtn(product)} className={`btn ${buyNow ? 'btn-success' : 'btn-primary'} w-full`}>{buyNow ? 'Added to Cart' : 'Buy Now'}</button>
         </div>
     );
 };
