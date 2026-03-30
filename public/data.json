@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI CV Builder",
+    "description": "Create professional, ATS-friendly resumes in minutes.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["50+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Kit",
+    "description": "Advanced resume builder with premium templates and analytics.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["100+ templates", "Cover letter builder", "Download in multiple formats"],
+    "icon": "award"
+  },
+  {
+    "id": 3,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate tailored cover letters instantly using AI.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Custom prompts", "Job-specific letters", "Editable templates"],
+    "icon": "edit"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Profile Optimizer",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["SEO optimization", "Headline suggestions", "Profile scoring"],
+    "icon": "linkedin"
+  },
+  {
+    "id": 5,
+    "name": "Job Tracker Dashboard",
+    "description": "Track all your job applications in one place.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Status updates", "Interview reminders"],
+    "icon": "briefcase"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI-generated questions and feedback.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Mock interviews", "Instant feedback", "Common Q&A bank"],
+    "icon": "mic"
+  },
+  {
+    "id": 7,
+    "name": "Portfolio Website Builder",
+    "description": "Create a personal portfolio website without coding.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag & drop builder", "Custom domains", "Responsive design"],
+    "icon": "globe"
+  },
+  {
+    "id": 8,
+    "name": "Career Growth Bundle",
+    "description": "All-in-one package for job seekers and professionals.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Resume + Cover Letter", "Interview prep", "Portfolio builder"],
+    "icon": "package"
+  }
+]
