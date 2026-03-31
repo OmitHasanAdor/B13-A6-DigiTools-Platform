@@ -1,16 +1,20 @@
-# React + Vite
+# DigiTools Platform : A React Single Page Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This project is a  **AI Powered Shop for Job Seekers.** An AI-driven career suite designed to automate resume building, LinkedIn optimization, and interview preparation to help professionals accelerate their **job search**.
 
-Currently, two official plugins are available:
+* Uses AI to create professional, ATS-friendly CVs and cover letters.
+* Uses AI to practice mock interviews and get instant feedback.
+* Helps users fix their LinkedIn profiles to attract more recruiters.
+* Tracks Applications to smooth your work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* React-Toastify (NPM Package)
+* React-icons
+* React-lucide
+* JavaScript (ES6+)
+* Tailwind CSS
+* DaisyUI 
+* JSON (for product data)
+* Netlify

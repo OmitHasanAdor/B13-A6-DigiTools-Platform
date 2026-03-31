@@ -34,7 +34,7 @@ const Product = ({product,cart,setCart}) => {
             }
           </ul>
           </div>
-          <button onClick={()=>handleBuyBtn(product)} className={`btn ${buyNow ? 'btn-success' : 'btn-primary'} w-full`}>{buyNow ? 'Added to Cart' : 'Buy Now'}</button>
+          <button onClick={()=>handleBuyBtn(product)} className={`btn ${buyNow ? 'btn-success text-white' : 'btn-primary'} w-full`}>{buyNow && <MdDone className=' text-white' />}{buyNow ? 'Added to Cart' : 'Buy Now'}</button>
         </div>
     );
 };
