@@ -1,6 +1,6 @@
 # DigiTools Platform : A React Single Page Application
 
-### This project is an  ** AI Powered Shop for Job Seekers. ** An AI-driven career suite designed to automate resume building, LinkedIn optimization, and interview preparation to help professionals accelerate their ** job search **.
+### This project is an  **AI Powered Shop for Job Seekers.** An AI-driven career suite designed to automate resume building, LinkedIn optimization, and interview preparation to help professionals accelerate their **job search**.
 
 
 ## Technologies Used
@@ -19,4 +19,4 @@
 
 1. Centralized Job and Data Management for smooth experiences.
 2. Eye Caching Advanced Section & Profile Optimizations.
-3. Dynamically Smart Functionality and UX.
+3. Dynamically Smart Functionality and UX for best user activity
