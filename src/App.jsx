@@ -9,6 +9,7 @@ import Rating from './components/Rating'
 import Steps from './components/Steps'
 import Products from './components/Products'
 import Cart from './components/Cart'
+import { ToastContainer } from 'react-toastify'
 const dataPromise=fetch('data.json').then(res=>res.json())
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 <Steps></Steps>
 <Pricing></Pricing>
 <Footer></Footer>
+<ToastContainer />
     </>
   )
 }
