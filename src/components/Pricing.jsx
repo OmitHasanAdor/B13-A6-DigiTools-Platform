@@ -46,7 +46,7 @@ const Pricing = () => {
                         <li className=" text-white flex items-center gap-3"><MdDone className=' text-white' /> Advanced analytics</li>
                     </ul>
                   </div>
-                  <div className="">
+                 <div className="">
                     <button className='btn bg-white rounded-full w-full text-lg font-bold p-4'><span className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">Get Started Free</span></button>
                   </div>
                 </div>
