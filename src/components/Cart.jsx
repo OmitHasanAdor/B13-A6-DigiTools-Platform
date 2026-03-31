@@ -20,9 +20,9 @@ const Cart = ({cart,setCart}) => {
 {cart.length!==0 ? <div className="">
                <div className="cont flex flex-col gap-5">
             {
-                cart.map(item=>
-                    <div className=" bg-gray-100 rounded-md py-5 flex justify-between items-center px-10">
-                    <div className=" flex justify-between gap-3">
+                cart.map((item,ind)=>
+                    <div key={ind} className=" bg-gray-100 rounded-md py-5 flex flex-col sm:flex-row justify-between items-center p-1 sm:px-10">
+                    <div className=" flex justify-between mb-5 sm:mb-0 gap-3">
                     <div className="">
                         <img src={item.icon} alt="" className='border bg-white rounded-[50%] p-2 border-gray-200'/>
                     </div>

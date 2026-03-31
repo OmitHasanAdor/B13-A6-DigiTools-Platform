@@ -35,7 +35,7 @@ const Product = ({product,cart,setCart}) => {
           <div className="">
           <ul className="">
               {
-            features.map(item=><li key={product.id}className=' flex items-center gap-2'><MdDone className=' text-green-500' />{item}</li>)
+            features.map((item,ind)=><li key={ind}className=' flex items-center gap-2'><MdDone className=' text-green-500' />{item}</li>)
             }
           </ul>
           </div>
