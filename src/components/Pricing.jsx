@@ -4,7 +4,7 @@ import { MdDone } from 'react-icons/md';
 const Pricing = () => {
     return (
         <div className='py-10 '>
-          <div className="mb-8">
+          <div className="mb-8  max-w-[95%] mx-auto">
             <h3 className=" text-4xl font-bold text-center mb-5">Simple, Transparent Pricing</h3>
             <p className=" text-gray-500 text-center ">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
           </div>
