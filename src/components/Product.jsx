@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import { MdDone } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const Product = ({product,cart,setCart}) => {
     const [buyNow,setBuyNow]=useState(false)
     const {features} = product
     const handleBuyBtn=(item)=>{
-        setBuyNow(true)
+      const findDuplicateItem=cart.find(i=>i.id===item.id)
+      if (findDuplicateItem) {
+        toast.error(`${item.name} is already added to cart`)
+      } else {
+           setBuyNow(true)
         setCart([...cart,item])
+        toast.success(`${item.name} is added to cart`)
+      }
     }
     return (
         <div className=' shadow-md rounded-2xl p-5 space-y-5'>

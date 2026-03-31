@@ -2,7 +2,7 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     return (
       <div className="navbar bg-base-100 shadow-sm px-8 py-2">
   <div className="navbar-start">
@@ -35,7 +35,10 @@ const Navbar = () => {
   <div className="navbar-end ">
 <div className="tabs tabs-box bg-transparent justify-center items-center">
 <span className='flex items-center'>
-  <span> <CiShoppingCart /> </span>
+  <span className=' relative'>
+     <CiShoppingCart  /> 
+{cart.length>0 &&  <span className=' bg-red-600 text-white text-[10px] h-4 w-4 text-center -right-1.5 rounded-[50%] absolute -top-2'>{cart.length}</span>}
+  </span>
   <input type="radio" name="my_tabs_1" className="tab  rounded-4xl font-semibold" aria-label="Login" />
 </span>
   <input type="radio" name="my_tabs_1" className="tab bg-linear-to-r rounded-4xl text-white font-semibold  from-[#4f39f6] to-[#9514fa]" aria-label="Get Started" defaultChecked />

@@ -1,14 +1,17 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
+import { toast } from 'react-toastify';
 
 const Cart = ({cart,setCart}) => {
     const totalPrice= cart.reduce((sum,item)=>sum + item.price,0)
     const handleDeletebtn=(item)=>{
         const itemFiltered=cart.filter(items=>items.id!==item.id)
         setCart(itemFiltered)
+         toast.success(`${item.name} is deleted from cart`)
     }
     const handleProceed=()=>{
         setCart([])
+         toast.success(`Product Purchased Succesful`)
     }
     return (
       <div className=" py-5">
@@ -36,7 +39,7 @@ const Cart = ({cart,setCart}) => {
             }
            </div>
            {cart.length!==0 && <div className=" flex justify-between py-3 my-5">
-            <p className="">Total</p>
+            <p className=" text-gray-500 font-semibold">Total</p>
             <p className=" text-2xl font-bold">${totalPrice}</p>
            </div>}
            <button onClick={()=>handleProceed()} className='btn w-full bg-linear-to-r  from-[#4f39f6] to-[#9514fa] rounded-full text-white font-bold'>Proceed to Checkout</button>
